@@ -1,0 +1,11 @@
+:root {
+  --brand-color: #4d5ae5;
+  --default-header-color: #2e2f42;
+  --default-text-color: ##434455;
+  --default-footer-color: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
