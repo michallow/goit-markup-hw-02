@@ -3,14 +3,22 @@
   --default-header-color: #2e2f42;
   --default-text-color: ##434455;
   --default-footer-color: #f4f4fd;
+  --default-buttons-text: #4d5ae5;
+  --default-buttons-color: #e7e9fc;
+  --default-buttons-background: #f4f4fd;
 }
 
 body {
   font-family: "Roboto", sans-serif;
 }
 
-.buttons {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 24px;
+button {
+  color: var(--default-buttons-text);
+  background-color: var(--default-buttons-background);
+  border-radius: 4px;
+  border: 1px solid var(--default-buttons-color);
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
 }
