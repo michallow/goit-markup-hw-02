@@ -10,6 +10,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: 434455;
+  background-color: FFFFFF;
 }
 
 button {
@@ -21,4 +23,22 @@ button {
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
+}
+
+button:hover {
+  color: white;
+  background-color: #404bbf;
+  cursor: pointer;
+  box-shadow: 1cap;
+}
+
+.web-logo {
+    font-family: "Raleway" sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0,03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
 }
