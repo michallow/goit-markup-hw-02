@@ -27,7 +27,7 @@ body {
 
 .link {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--default-header-color);
 }
 
 .logo {
@@ -50,7 +50,7 @@ body {
 }
 
 .logo-studio {
-  color: var(--text-color);
+  color: var(--default-header-color);
 }
 
 .address {
@@ -76,8 +76,8 @@ body {
 
 .main-button {
   color: #ffffff;
-  background: var(--link-hover);
-  font-family: "Raleway", sans-serif;
+  background: var(--default-buttons-text);
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -99,4 +99,12 @@ button:hover {
   color: white;
   background-color: #404bbf;
   cursor: pointer;
+}
+
+.values {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--default-header-color);
 }
