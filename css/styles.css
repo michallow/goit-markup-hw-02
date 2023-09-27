@@ -27,7 +27,7 @@ body {
 
 .link {
   text-decoration: none;
-  color: var(--default-header-color);
+  color: var(--text-color);
 }
 
 .logo {
@@ -97,14 +97,31 @@ button {
 
 button:hover {
   color: white;
-  background-color: #404bbf;
+  background-color: var(--link-hover);
   cursor: pointer;
 }
 
-.values {
+.section-header {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--default-header-color);
+}
+
+.values-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--default-header-color);
+}
+
+.goals {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
