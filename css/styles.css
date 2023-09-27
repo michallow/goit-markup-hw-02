@@ -31,7 +31,7 @@ body {
 }
 
 .address {
-  color: var(--text-color);
+  color: var(text-color);
   font-style: normal;
 }
 
@@ -128,4 +128,8 @@ button:hover {
 
 .list-item {
   background-color: var(--color-white);
+}
+
+.footer-section {
+    background-color: var(--default-header-color);
 }
