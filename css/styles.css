@@ -1,5 +1,5 @@
 :root {
-  --background-color: #ffffff;
+  --color-white: #ffffff;
   --brand-color: #4d5ae5;
   --default-header-color: #2e2f42;
   --default-footer-color: #f4f4fd;
@@ -13,7 +13,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
-  background-color: var(--background-color);
+  background-color: var(--color-white);
 }
 
 .list {
@@ -62,11 +62,33 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+.tag-line {
+  background-color: var(--default-header-color);
+}
+
+.tag-line-header {
+  color: var(--color-white);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
 
 .main-button {
   color: #ffffff;
-  background: var(--IRIS, #4d5ae5);
+  background: var(--link-hover);
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
+
+.main-button:focus {
+  background-color: var(--link-hover);
+}
+
 button {
   color: var(--default-buttons-text);
   background-color: var(--default-buttons-background);
