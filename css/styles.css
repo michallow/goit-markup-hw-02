@@ -58,6 +58,16 @@ body {
   color: var(--default-header-color);
 }
 
+.logo-footer {
+    color: var(--default-footer-color);
+}
+
+.paragraph-footer {
+    line-height: 1.5;
+    color: var(--default-footer-color);
+    letter-spacing: 0.02em;
+}
+
 .tag-line {
   background-color: var(--default-header-color);
 }
