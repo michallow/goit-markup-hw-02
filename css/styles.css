@@ -22,7 +22,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--default-header-color);
-  list-style: none;
 }
 
 .link {
@@ -31,11 +30,8 @@ body {
 }
 
 .address {
-  font-style: normal;
-}
-
-.link > .address {
   color: var(--text-color);
+  font-style: normal;
 }
 
 .logo {
