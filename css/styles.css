@@ -30,7 +30,7 @@ body {
 }
 
 .address {
-  color: var(--text-color);
+  color: red;
   font-style: normal;
 }
 
