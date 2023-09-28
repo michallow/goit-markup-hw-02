@@ -92,7 +92,7 @@ body {
   background-color: var(--color-ocean);
 }
 
-button {
+.buttons {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -103,7 +103,12 @@ button {
   justify-content: center;
 }
 
-button:hover {
+.buttons:focus {
+  background-color: var(--color-ocean);
+  cursor: pointer;
+}
+
+.buttons:hover {
   color: var(--color-white);
   background-color: var(--color-ocean);
   cursor: pointer;
