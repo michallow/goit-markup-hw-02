@@ -1,18 +1,16 @@
 :root {
   --color-white: #ffffff;
-  --brand-color: #4d5ae5;
-  --default-header-color: #2e2f42;
-  --default-footer-color: #f4f4fd;
-  --default-buttons-text: #4d5ae5;
-  --default-buttons-color: #e7e9fc;
-  --default-buttons-background: #f4f4fd;
-  --link-hover: #404bbf;
-  --text-color: #434455;
+  --color-iris: #4d5ae5;
+  --color-navy-blue: #2e2f42;
+  --color-cloud: #f4f4fd;
+  --color-cornflower: #e7e9fc;
+  --color-ocean: #404bbf;
+  --color-slate: #434455;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--text-color);
+  color: var(--color-slate);
   background-color: var(--color-white);
 }
 
@@ -21,16 +19,16 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--default-header-color);
+  color: var(--color-navy-blue);
 }
 
 .link {
   text-decoration: none;
-  color: var(--default-header-color);
+  color: var(--color-navy-blue);
 }
 
 .address {
-  color: red;
+  color: var(--color-slate);
   font-style: normal;
 }
 
@@ -41,34 +39,34 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--brand-color);
+  color: var(--color-iris);
   text-decoration: none;
 }
 
 .link:hover {
-  color: var(--link-hover);
+  color: var(--color-ocean);
 }
 
 .link:focus {
-  color: var(--link-hover);
+  color: var(--color-ocean);
 }
 
 .logo-studio {
-  color: var(--default-header-color);
+  color: var(--color-navy-blue);
 }
 
 .logo-footer {
-  color: var(--default-footer-color);
+  color: var(--color-cloud);
 }
 
 .paragraph-footer {
   line-height: 1.5;
-  color: var(--default-footer-color);
+  color: var(--color-cloud);
   letter-spacing: 0.02em;
 }
 
 .tag-line {
-  background-color: var(--default-header-color);
+  background-color: var(--color-navy-blue);
 }
 
 .tag-line-header {
@@ -80,8 +78,8 @@ body {
 }
 
 .main-button {
-  color: #ffffff;
-  background: var(--default-buttons-text);
+  color: var(--color-white);
+  background: var(--color-iris);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -91,18 +89,23 @@ body {
 }
 
 .main-button:focus {
-  background-color: var(--link-hover);
+  background-color: var(--color-ocean);
 }
 
 button {
-  color: var(--default-buttons-text);
-  background-color: var(--default-buttons-background);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
   justify-content: center;
 }
 
 button:hover {
-  color: white;
-  background-color: var(--link-hover);
+  color: var(--color-white);
+  background-color: var(--color-ocean);
   cursor: pointer;
 }
 
@@ -113,7 +116,7 @@ button:hover {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: var(--default-header-color);
+  color: var(--color-navy-blue);
 }
 
 .values-list {
@@ -121,18 +124,18 @@ button:hover {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--default-header-color);
+  color: var(--color-navy-blue);
 }
 
 .goals {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--color-slate);
 }
 
 .section-team {
-  background-color: var(--default-footer-color);
+  background-color: var(--color-cloud);
 }
 
 .list-item {
@@ -140,5 +143,5 @@ button:hover {
 }
 
 .footer-section {
-  background-color: var(--default-header-color);
+  background-color: var(--color-navy-blue);
 }
