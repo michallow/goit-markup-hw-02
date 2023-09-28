@@ -31,7 +31,7 @@ body {
 }
 
 .address {
-  color: var(text-color);
+  color: var(--text-color);
   font-style: normal;
 }
 
@@ -59,13 +59,13 @@ body {
 }
 
 .logo-footer {
-    color: var(--default-footer-color);
+  color: var(--default-footer-color);
 }
 
 .paragraph-footer {
-    line-height: 1.5;
-    color: var(--default-footer-color);
-    letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: var(--default-footer-color);
+  letter-spacing: 0.02em;
 }
 
 .tag-line {
@@ -141,5 +141,5 @@ button:hover {
 }
 
 .footer-section {
-    background-color: var(--default-header-color);
+  background-color: var(--default-header-color);
 }
