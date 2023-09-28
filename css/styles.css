@@ -103,12 +103,13 @@ body {
   justify-content: center;
 }
 
-.buttons:focus {
+.buttons:hover {
+  color: var(--color-white);
   background-color: var(--color-ocean);
   cursor: pointer;
 }
 
-.buttons:hover {
+.buttons:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
   cursor: pointer;
@@ -145,6 +146,14 @@ body {
 
 .list-item {
   background-color: var(--color-white);
+}
+
+.project-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
 }
 
 .footer-section {
