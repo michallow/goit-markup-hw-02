@@ -31,8 +31,11 @@ body {
 }
 
 .address {
-  color: var(--text-color);
   font-style: normal;
+}
+
+.link > .address {
+  color: var(--text-color);
 }
 
 .logo {
