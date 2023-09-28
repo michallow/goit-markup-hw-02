@@ -88,6 +88,9 @@ body {
   cursor: pointer;
 }
 
+.main-button:hover {
+  background-color: var(--color-ocean);
+}
 .main-button:focus {
   background-color: var(--color-ocean);
 }
@@ -149,11 +152,11 @@ body {
 }
 
 .project-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color-navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
 }
 
 .footer-section {
